@@ -7,6 +7,9 @@
 body {
     background-color: white; 
 }
+h1 {
+    color: aliceblue;
+}
 table {
     margin: 15em auto ;
 }
@@ -19,6 +22,7 @@ table {
     border-radius: 5px;
     font-family: 'Press Start 2P', cursive;
 }
+
 .Number {
     height: 5em;
     width: 100%;
@@ -27,4 +31,8 @@ table {
     border-radius: 5px;
     box-shadow: 0px 2px 0px grey;
     font-family: 'Press Start 2P', cursive;;
+}
+
+#equals{
+    height: 10em;
 }

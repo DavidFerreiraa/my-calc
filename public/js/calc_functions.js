@@ -9,21 +9,9 @@ function limparDisplay(){
     document.getElementById('display').value = '0';
 }
 
-var operador = ''
-var valor1 = 0
-function atualizarOperacao(btn){
-    const display = document.getElementById('display');
-    operador = btn.value;
-    valor1 = parseInt(display.value);
-    display.value = '0';
-}
-
 function calcularOperacao(){
     const display = document.getElementById('display');
-    const valor2 = parseInt(display.value);
-    valor1 = eval(valor1+operador+valor2);
-    display.value = valor1;
-    operador = '';
+    display.value = eval(display.value);
 }       
 
 function manipularTeclado(){
