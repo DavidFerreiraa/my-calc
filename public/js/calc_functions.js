@@ -1,6 +1,6 @@
 function atualizarDisplay(btn){
     const display = document.getElementById('display');
-    if(display.value.length === 9) return;
+    if(display.value.length === 20) return;
     if(display.value === '0') display.value = btn.value;
     else display.value += btn.value;
 }
