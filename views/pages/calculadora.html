@@ -41,13 +41,17 @@
         <tr>
             <td><input type="button" value="C" onclick="limparDisplay()" class="Number"/></td>
             <td><input type="button" value="0" onclick="atualizarDisplay(this)" class="Number"/></td>
-            <td><input type="button" value="/" onclick="atualizarOperacao(this)" class="Number"/></td>
-            <td rowspan="2"><input type="button" value="=" onclick="calcularOperacao()" class="Number" id="equals"/></td>
+            <td><input type="button" value="/" onclick="atualizarDisplay(this)" class="Number"/></td>
+            <td><input type="button" value="**" onclick="atualizarDisplay(this)" class="Number"/></td>
         </tr>
         <tr>
             <td><input type="button" value="(" onclick="atualizarDisplay(this)" class="Number"/></td>
             <td><input type="button" value=")" onclick="atualizarDisplay(this)" class="Number"/></td>
             <td><input type="button" value="." onclick="atualizarDisplay(this)" class="Number"/></td>
+            <td><input type="button" value="√" onclick="raiz(this)" class="Number"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="button" value="=" onclick="calcularOperacao()" class="Number"/></td>
         </tr>
     </table>
 

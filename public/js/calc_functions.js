@@ -12,7 +12,12 @@ function limparDisplay(){
 function calcularOperacao(){
     const display = document.getElementById('display');
     display.value = eval(display.value);
-}       
+}
+
+function raiz(){
+    const display = document.getElementById('display')
+    display.value = Math.sqrt(display.value)
+}
 
 function manipularTeclado(){
     if(/[0-9]/.test(event.key))
